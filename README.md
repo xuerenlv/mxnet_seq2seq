@@ -1,11 +1,10 @@
-OpenNMT seq2seq model
-==========================
+LSTM encoder-decoder seq2seq model
+==================================
 
-This project is an implementation of the [OpenNMT sequence-to-sequence model](http://opennmt.net/Models/) in MxNet. The OpenNMT model is based on:
+This project is an implementation of a simple encoder-decoder seq2seq model in MxNet. The OpenNMT model is based on:
 
 - a stacked LSTM encoder
 - a stacked LSTM decoder
-- an attention model
  
 The reference model configuration is:
 
